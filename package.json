@@ -1,0 +1,22 @@
+{
+  "name": "flowmeter",
+  "version": "1.0.0",
+  "description": "Flow Meter App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabalbrew/FlowMeter.git"
+  },
+  "keywords": [
+    "flowmeter"
+  ],
+  "author": "Pablo Gutierrez <guti.bierzo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jabalbrew/FlowMeter/issues"
+  },
+  "homepage": "https://github.com/jabalbrew/FlowMeter#readme"
+}
