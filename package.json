@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/jabalbrew/FlowMeter/issues"
   },
-  "homepage": "https://github.com/jabalbrew/FlowMeter#readme"
+  "homepage": "https://github.com/jabalbrew/FlowMeter#readme",
+  "dependencies": {
+    "onoff": "^4.0.0",
+    "water-flow-sensor": "^1.0.1"
+  }
 }
