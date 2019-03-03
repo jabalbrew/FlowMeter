@@ -2,5 +2,5 @@ steps:
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install']
 - name: 'gcr.io/cloud-builders/npm'
-  args: ['start']
+  args: ['lint']
 timeout: "300s"
