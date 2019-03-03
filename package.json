@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/jabalbrew/FlowMeter#readme",
   "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
     "onoff": "^4.0.0",
     "water-flow-sensor": "^1.0.1",
     "websocket": "^1.0.28"
