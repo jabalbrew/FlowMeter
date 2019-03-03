@@ -4,7 +4,8 @@
   "description": "Flow Meter App",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "lint": "eslint --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,14 @@
   },
   "homepage": "https://github.com/jabalbrew/FlowMeter#readme",
   "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
     "onoff": "^4.0.0",
     "water-flow-sensor": "^1.0.1",
     "websocket": "^1.0.28"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "eslint-config-strongloop": "^2.1.0"
   }
 }
